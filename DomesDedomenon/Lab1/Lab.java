@@ -81,4 +81,11 @@ public class Lab {
         return sum;
     }
     
+    public double AverageOfLab(){
+        double sum=0;
+        for(int i=0;i<s.length;i++){
+            sum+=s[i].getGrade();
+        }
+        return (sum/s.length);
+    }
 }
